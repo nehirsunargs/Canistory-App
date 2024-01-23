@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Explore</title>
+  	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+	 crossorigin="" />
+   <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link href="explore.css" rel="stylesheet"/>
+
+</head>
+
+<body>
+	<header>
+		<a href="index.html" class="logo"><img src="logo.png" height = "120px"></a>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<!--Added active class to Explore page (CSS had hover or active to be highlighted)-->
+			<li><a href="explore.html" class="active">Explore</a></li>
+
+			<li><a href="about.html">About</a></li>
+		</ul>
+	</header>
+
+	
+<div class="container-fluid " id="sec" style="background-color: white; height: 100vh">
+    <div class="row align-items-start h-100">
+        <div class="col-lg-4 h-100 overflow-scroll">
+    <section style="background-color: #f0f2f5;">
+      <div class="container py-5">
+        <div class="main-timeline">
+          <div class="timeline left">
+            <div class="card">
+              <div class="card-body p-4">
+                <h3>1867</h3>
+                <p class="mb-0">
+                 Ontario, Quebec, New Brunswick, and Nova Scotia were the original provinces, formed when several British North American colonies federated on July 1, 1867, into the Dominion of Canada and by stages began accruing the indicia of sovereignty from the United Kingdom
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="timeline right">
+            <div class="card">
+              <div class="card-body p-4">
+                <h3>1882</h3>
+                <p class="mb-0">
+                  The provisional districts of Assiniboia, Saskatchewan, Athabasca, and Alberta are created in 1882. As people continued to settle in the North-West Territories (partly because the railway was being built), the federal government found it had to create new districts to govern the territories.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="timeline left">
+            <div class="card">
+              <div class="card-body p-4">
+                <h3>1912</h3>
+                <p class="mb-0">
+           In 1912, the Government of Canada passes bills to extend the provinces of Ontario, Quebec, and Manitoba northward to their present boundaries. The District of Keewatin loses much of its territory, while the District of Ungava becomes part of the Province of Quebec. Quebec does not get any coastal islands, because a proper description of the islands would be difficult, and because the federal government wants to keep control over them for purposes of navigation and defence.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="timeline right">
+            <div class="card">
+              <div class="card-body p-4">
+                <h3>1949</h3>
+                <p class="mb-0">
+                  In 1949, Newfoundland enters Confederation as the tenth province. The oldest of Britain's colonies, Newfoundland, had originally been established because of the presence of the rich fisheries of the Grand Banks. The colony of Newfoundland was granted responsible government in 1855; it decided in 1867 to remain outside of Confederation and to protect its status.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="timeline left">
+            <div class="card">
+              <div class="card-body p-4">
+                <h3>2001 </h3>
+                <p class="mb-0">
+                  Nunavut becomes Canada's third territory on April 1, 1999.
+                Newfoundland's name is changed by proclamation of the Governor General to Newfoundland and Labrador on 6 December 2001.
+                </p>
+              </div>
+            </div>
+          </div>
+        
+    </section>
+
+
+        </div>
+        <div class="col-lg-8 h-100 order-0">
+            <!-- map -->
+            <div id="map" class="h-100">
+            </div>
+            <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+                integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+                crossorigin=""></script>
+            <script src="map.js"></script>
+        </div>
+    </div>
+</div>
+ <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+	<!-- <script src="script.js">
+
+	</script> -->
+
+</body>
+
+</html>

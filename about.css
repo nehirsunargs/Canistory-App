@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*
+{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Poppins', sans-serif;
+}
+
+body {
+min-height: 100vh;
+ background: linear-gradient(#5088B9,#84ACCE, #79A1E2, #86CD82, #72A276)
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+color: white;
+font-weight: 700;
+/* removes link line undereath text */
+text-decoration: none;
+font-size:2em;
+text-transform: uppercase;
+letter-spacing: 2px;
+}
+
+/* arranges in a line instead of beneath each other  */
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul li {
+/* removes bullet points that lists have automatically */
+list-style: none;
+/* evenly spaces out 'home' 'about me' 'contact' 'work' */
+margin-left:20px;
+}
+
+header ul li a {
+text-decoration: none;
+padding: 6px 15px;
+color: white;
+}
+
+header ul li a:hover , 
+header ul li a.active {
+background: white; 
+color: #5088B9;
+border-radius: 20px;
+} 
+
+.nonprofit {
+transform: translateY(250%)translateX(75%);
+border-radius: 25px;
+height: 100px;
+width: 600px;
+}
+
+h2 {
+transform: translateY(300%);
+  margin-left:100px;
+  margin-right:100px;
+  color: white;
+}
+
+.creators {
+text-align: center;
+transform: translateY(700%);
+color: white;
+font-size: 40px
+}
+
+.creatornames {
+color: white;
+display:flex;
+align-content: flex-end;
+justify-content: space-between;
+transform: translateY(1000%) translateX(37%);
+margin-right:none; 
+}
