@@ -40,6 +40,9 @@ This HTML-based project consists of multiple web pages, including a homepage, an
 
 5. Customize the content to match the information you want to provide.
 
-## Author
+## Authors
 
-- Nehir Sunar
+- Aditya
+- Nehir
+- Mariam
+- Abiraj
